@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>box-3</title>
+    <style>
+        #container{
+        display: grid;
+        gap: 10px;
+        padding: 10px;
+       }
+       #container > div{
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+       }
+        .box-1{
+            background-color: #f9cb9c;
+            grid-column: 1 / span 5;
+            grid-row: 1;
+            width: 65%;
+        }
+        .box-2{
+            background-color: #a2c4c9;
+            grid-column: 1 / span 2;
+            grid-row: 2 / span 5;
+            width: 50%;
+        }
+        .box-3{
+            background-color: #b4a7d5;
+            grid-column: 3 /span 2;
+            grid-row: 2 / span 3;
+            width: 60%;
+            transform: translateX(-350px);
+        }
+        .box-4{
+            background-color: #d5a6bd;
+            grid-column: 3 / span 2;
+            grid-row: 5 / span 2;
+            width: 60%;
+            transform: translateX(-350px);
+        }
+        .box-5{
+            background-color: #a3c2f4;
+            grid-column: 5;
+            grid-row: 2;
+            transform: translateX(-637px);
+        }
+        .box-6{
+            background-color: #9ec5e8;
+            grid-column: 5;
+            grid-row: 3;
+            transform: translateX(-637px);
+        }
+        .box-7{
+            background-color: #ffe598;
+            grid-column: 5;
+            grid-row: 4;
+            transform: translateX(-637px);
+        }
+        .box-8{
+            background-color: #6d9eeb;
+            grid-column: 5;
+            grid-row: 5;
+            transform: translateX(-637px);
+        }
+        .box-9{
+            background-color: #d8d2e9;
+            grid-column: 5;
+            grid-row: 6;
+            transform: translateX(-637px);
+        }
+        .box-10{
+            background-color: #b7d7a8;
+            grid-column: 1 / span 5;
+            grid-row: 7;
+            width: 65%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+        <div class="box-4">4</div>
+        <div class="box-5">5</div>
+        <div class="box-6">6</div>
+        <div class="box-7">7</div>
+        <div class="box-8">8</div>
+        <div class="box-9">9</div>
+        <div class="box-10">10</div>
+    </div> 
+</body>
+</html>
